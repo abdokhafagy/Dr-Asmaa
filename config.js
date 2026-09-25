@@ -19,27 +19,27 @@ window.WEDDING_CONFIG = {
     '--color-shadow': 'rgba(161, 0, 37, 0.12)'
   },
   couple: {
-    groom: 'الدكتور كريم',
-    bride: 'الدكتورة أسماء'
+    groom: ' كريم',
+    bride: ' أسماء'
   },
   event: {
-    dateTime: '2026-10-23T17:00:00+02:00',
-    displayDate: 'يوم الخميس • ٢٣ أكتوبر ٢٠٢٦',
+    dateTime: '2026-10-23T15:00:00+02:00',
+    displayDate: 'يوم الجمعة • ٢٣ أكتوبر ٢٠٢٦',
     shortDate: '٢٣ أكتوبر ٢٠٢٦',
-    venueName: 'مسجد السلام بطنطا',
-    venueLocation: 'Tanta, Egypt',
-    venueLabel: 'مسجد السلام بطنطا، مصر',
-    mapQuery: 'Al-Salam+Mosque+Tanta+Egypt',
-    mapUrl: 'https://maps.app.goo.gl/9amdULpP3r5WdUwy5'
+    venueName: 'مسجد الرحمة باستاد طنطا',
+    venueLocation: 'مسجد الرحمة باستاد طنطا',
+    venueLabel: 'مسجد الرحمة باستاد طنطا',
+    mapQuery: 'Al-Rahma+Mosque+Tanta+Stadium+Egypt',
+    mapUrl: 'https://maps.app.goo.gl/osFS7gPanMnHTpAZ9'
   },
   copy: {
-    pageTitle: 'دعوة كتب كتاب الدكتور كريم والدكتورة أسماء',
-    metaDescription: 'دعوة كتب كتاب الدكتور كريم والدكتورة أسماء - نتشرف بدعوتكم لحضور حفل كتب الكتاب يوم الخميس ٢٣ أكتوبر ٢٠٢٦ الساعة ٥:٠٠ مساءً في مسجد السلام بطنطا',
-    ogTitle: 'دعوة كتب كتاب الدكتور كريم والدكتورة أسماء',
+    pageTitle: 'دعوة كتب كتاب  كريم وأسماء',
+    metaDescription: 'دعوة كتب كتاب كريم وأسماء - نتشرف بدعوتكم لحضور حفل كتب الكتاب يوم الجمعة ٢٣ أكتوبر ٢٠٢٦ الساعة ٣:٠٠ مساءً في مسجد الرحمة باستاد طنطا',
+    ogTitle: 'دعوة كتب كتاب كريم وأسماء',
     ogDescription: 'نتشرف بدعوتكم لحضور حفل كتب الكتاب',
     envelopeTitle: 'دعوة كتب كتاب',
     envelopeTap: 'اضغط لفتح الدعوة ♥',
-    envelopeAriaLabel: 'دعوة كتب كتاب الدكتور كريم والدكتورة أسماء',
+    envelopeAriaLabel: 'دعوة كتب كتاب كريم وأسماء',
     heroBadge: 'كتب كتابنا',
     heroSubtitle: 'نتشرف بدعوتكم لحضور حفل كتب الكتاب وتشريفكم لنا بوجودكم',
     saveDateTitle: 'تاريخ حفلنا',
@@ -58,15 +58,15 @@ window.WEDDING_CONFIG = {
     countdownEnded: '🎉 لقد حان موعد ليلتنا الكبرى وسعدنا بلقائكم!'
   },
   timeline: [
-    { time: '17:00', timeLabel: 'الساعة ٥:٠٠ مساءً', activity: 'استقبال الضيوف الكرام' },
-    { time: '17:30', timeLabel: 'الساعة ٥:٣٠ مساءً', activity: 'بداية مراسم كتب الكتاب' }
+    { time: '15:00', timeLabel: 'الساعة ٣:٠٠ مساءً', activity: 'استقبال الضيوف الكرام' },
+    { time: '15:15', timeLabel: 'الساعة ٣:١٥ مساءً', activity: 'بداية مراسم كتب الكتاب' }
   ],
   iCal: {
     uid: 'katb-dr-kareem-asmaa-2026-10-23',
     dtStamp: '20260925T120000Z',
-    start: '20261023T150000Z',
-    end: '20261023T190000Z',
-    summary: 'حفل كتب الكتاب - الدكتور كريم والدكتورة أسماء 💍',
+    start: '20261023T130000Z',
+    end: '20261023T170000Z',
+    summary: 'حفل كتب الكتاب - كريم وأسماء 💍',
     description: 'نتشرف بدعوتكم لحضور حفل كتب الكتاب. حضوركم يسعدنا ويتمم هذه المناسبة!'
   }
 };

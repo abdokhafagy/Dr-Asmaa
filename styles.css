@@ -292,7 +292,7 @@ button {
   background-color: var(--color-card-surface);
   border-radius: var(--radius-sm);
   box-shadow: var(--shadow-lg);
-  border: 1px solid rgba(44, 94, 98, 0.1);
+  border: 2px solid var(--color-gold);
   transition: transform var(--transition-normal);
 }
 
@@ -441,6 +441,16 @@ button {
   background: radial-gradient(circle at top, rgba(44, 94, 98, 0.06), transparent 60%);
   border-bottom: 1px solid rgba(44, 94, 98, 0.14);
   padding-bottom: var(--spacing-xl);
+}
+
+.quran-verse {
+  max-width: 420px;
+  margin: 0 auto var(--spacing-lg);
+  color: var(--color-primary);
+  font-family: var(--font-heading);
+  font-size: var(--font-size-base);
+  line-height: 2;
+  text-align: center;
 }
 
 .hero__badge {

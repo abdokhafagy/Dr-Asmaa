@@ -49,21 +49,21 @@
   /** @type {WeddingData} */
   const WEDDING_DATA = {
     couple: {
-      groom: WEDDING_CONFIG.couple?.groom || "الدكتور كريم",
-      bride: WEDDING_CONFIG.couple?.bride || "الدكتورة أسماء"
+      groom: WEDDING_CONFIG.couple?.groom || "كريم",
+      bride: WEDDING_CONFIG.couple?.bride || "أسماء"
     },
     event: {
-      date: WEDDING_CONFIG.event?.dateTime || "2026-10-23T17:00:00+02:00",
+      date: WEDDING_CONFIG.event?.dateTime || "2026-10-23T15:00:00+02:00",
       venue: {
-        name: WEDDING_CONFIG.event?.venueName || "قاعة رويال بالاس الجلاء طنطا",
-        location: WEDDING_CONFIG.event?.venueLocation || "Tanta, Egypt",
-        mapQuery: WEDDING_CONFIG.event?.mapQuery || "Royal+Palace+Hall+Tanta+Egypt"
+        name: WEDDING_CONFIG.event?.venueName || "مسجد الرحمة باستاد طنطا",
+        location: WEDDING_CONFIG.event?.venueLocation || "مسجد الرحمة باستاد طنطا",
+        mapQuery: WEDDING_CONFIG.event?.mapQuery || "Al-Rahma+Mosque+Tanta+Stadium+Egypt"
       },
       dressCode: "ملابس أنيقة / كاجوال شيك"
     },
     schedule: WEDDING_CONFIG.timeline || [
-      { time: "20:00", activity: "استقبال الضيوف الكرام" },
-      { time: "17:30", activity: "بداية مراسم كتب الكتاب" }
+      { time: "15:00", activity: "استقبال الضيوف الكرام" },
+      { time: "15:15", activity: "بداية مراسم كتب الكتاب" }
     ]
   };
 
@@ -159,7 +159,7 @@
       detailValues[1].textContent = WEDDING_CONFIG.event.venueName;
     }
     if (detailValues[2] && WEDDING_CONFIG.event?.shortDate) {
-      detailValues[2].textContent = `${WEDDING_CONFIG.event.shortDate} • الساعة ٥:٠٠ مساءً`;
+      detailValues[2].textContent = `${WEDDING_CONFIG.event.shortDate} • الساعة ٣:٠٠ مساءً`;
     }
     if (mapsButton && WEDDING_CONFIG.event?.mapUrl) {
       mapsButton.href = WEDDING_CONFIG.event.mapUrl;
@@ -317,8 +317,8 @@
    */
   function generateICS() {
     const iCal = WEDDING_CONFIG.iCal || {};
-    const summary = iCal.summary || "حفل كتب الكتاب - الدكتور كريم والدكتورة أسماء 💍";
-    const location = WEDDING_CONFIG.event?.venueLabel || "قاعة رويال بالاس الجلاء طنطا، مصر";
+    const summary = iCal.summary || "حفل كتب الكتاب - كريم وأسماء 💍";
+    const location = WEDDING_CONFIG.event?.venueLabel || "مسجد الرحمة باستاد طنطا";
     const description = iCal.description || "نتشرف بدعوتكم لحضور حفل كتب الكتاب. حضوركم يسعدنا ويتمم هذه المناسبة!";
 
     // Clean newlines for standard compatibility
