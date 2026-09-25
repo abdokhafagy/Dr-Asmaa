@@ -42,7 +42,7 @@ window.WEDDING_CONFIG = {
     envelopeAriaLabel: 'دعوة كتب كتاب كريم وأسماء',
     heroBadge: 'كتب كتابنا',
     heroSubtitle: 'نتشرف بدعوتكم لحضور حفل كتب الكتاب وتشريفكم لنا بوجودكم',
-    saveDateTitle: 'تاريخ حفلنا',
+    saveDateTitle: 'مـوعـدنــا',
     saveDateSubtitle: 'شاركونا هذه المناسبة المهمة واجعلوا موعدنا مسجلاً بقلوبكم وتقويمكم',
     detailsTitle: 'تفاصيل ليلتنا',
     themeLabel: 'الموضوع / الثيم',
