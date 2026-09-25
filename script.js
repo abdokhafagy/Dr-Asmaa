@@ -53,7 +53,7 @@
       bride: WEDDING_CONFIG.couple?.bride || "الدكتورة أسماء"
     },
     event: {
-      date: WEDDING_CONFIG.event?.dateTime || "2026-08-28T21:00:00+02:00",
+      date: WEDDING_CONFIG.event?.dateTime || "2026-10-23T17:00:00+02:00",
       venue: {
         name: WEDDING_CONFIG.event?.venueName || "قاعة رويال بالاس الجلاء طنطا",
         location: WEDDING_CONFIG.event?.venueLocation || "Tanta, Egypt",
@@ -63,7 +63,7 @@
     },
     schedule: WEDDING_CONFIG.timeline || [
       { time: "20:00", activity: "استقبال الضيوف الكرام" },
-      { time: "21:00", activity: "بداية مراسم حفل الزفاف" }
+      { time: "17:30", activity: "بداية مراسم كتب الكتاب" }
     ]
   };
 
@@ -159,7 +159,7 @@
       detailValues[1].textContent = WEDDING_CONFIG.event.venueName;
     }
     if (detailValues[2] && WEDDING_CONFIG.event?.shortDate) {
-      detailValues[2].textContent = `${WEDDING_CONFIG.event.shortDate} • الساعة ٦:٠٠ مساءً`;
+      detailValues[2].textContent = `${WEDDING_CONFIG.event.shortDate} • الساعة ٥:٠٠ مساءً`;
     }
     if (mapsButton && WEDDING_CONFIG.event?.mapUrl) {
       mapsButton.href = WEDDING_CONFIG.event.mapUrl;
@@ -317,22 +317,22 @@
    */
   function generateICS() {
     const iCal = WEDDING_CONFIG.iCal || {};
-    const summary = iCal.summary || "حفل زفاف الدكتور كريم والدكتورة أسماء 💍";
+    const summary = iCal.summary || "حفل كتب الكتاب - الدكتور كريم والدكتورة أسماء 💍";
     const location = WEDDING_CONFIG.event?.venueLabel || "قاعة رويال بالاس الجلاء طنطا، مصر";
-    const description = iCal.description || "بقلوب مليئة بالحب والشوق، نتشرف بدعوتكم لحضور حفل زفافنا. حضوركم يسعدنا ويتمم فرحتنا!";
+    const description = iCal.description || "نتشرف بدعوتكم لحضور حفل كتب الكتاب. حضوركم يسعدنا ويتمم هذه المناسبة!";
 
     // Clean newlines for standard compatibility
     const icsLines = [
       "BEGIN:VCALENDAR",
       "VERSION:2.0",
-      "PRODID:-//Doctor Kareem and Doctor Asmaa//Wedding Invitation//AR",
+      "PRODID:-//Doctor Kareem and Doctor Asmaa//Katb Al-Kitaab Invitation//AR",
       "CALSCALE:GREGORIAN",
       "METHOD:PUBLISH",
       "BEGIN:VEVENT",
-      "UID:" + (iCal.uid || "wedding-dr-kareem-asmaa-2026-08-28"),
-      "DTSTAMP:" + (iCal.dtStamp || "20260520T120000Z"),
-      "DTSTART:" + (iCal.start || "20260828T160000Z"),
-      "DTEND:" + (iCal.end || "20260828T210000Z"),
+      "UID:" + (iCal.uid || "katb-dr-kareem-asmaa-2026-10-23"),
+      "DTSTAMP:" + (iCal.dtStamp || "20260925T120000Z"),
+      "DTSTART:" + (iCal.start || "20261023T150000Z"),
+      "DTEND:" + (iCal.end || "20261023T190000Z"),
       "SUMMARY:" + summary,
       "DESCRIPTION:" + description,
       "LOCATION:" + location,
@@ -350,7 +350,7 @@
       const url = URL.createObjectURL(blob);
       const tempLink = document.createElement('a');
       tempLink.href = url;
-      tempLink.setAttribute('download', 'dr-kareem-asmaa-wedding.ics');
+      tempLink.setAttribute('download', 'dr-kareem-asmaa-23oct-katb-al-kitaab.ics');
       document.body.appendChild(tempLink);
       tempLink.click();
       document.body.removeChild(tempLink);

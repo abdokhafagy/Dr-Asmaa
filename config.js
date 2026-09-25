@@ -23,50 +23,50 @@ window.WEDDING_CONFIG = {
     bride: 'الدكتورة أسماء'
   },
   event: {
-    dateTime: '2026-08-28T21:00:00+02:00',
-    displayDate: 'يوم الجمعة • ٢٨ أغسطس ٢٠٢٦',
-    shortDate: '٢٨ أغسطس ٢٠٢٦',
-    venueName: 'قاعة رويال بالاس الجلاء طنطا',
+    dateTime: '2026-10-23T17:00:00+02:00',
+    displayDate: 'يوم الخميس • ٢٣ أكتوبر ٢٠٢٦',
+    shortDate: '٢٣ أكتوبر ٢٠٢٦',
+    venueName: 'مسجد السلام بطنطا',
     venueLocation: 'Tanta, Egypt',
-    venueLabel: 'قاعة رويال بالاس الجلاء طنطا، مصر',
-    mapQuery: 'Royal+Palace+Hall+Tanta+Egypt',
-    mapUrl: 'https://maps.google.com/?q=Royal+Palace+Hall+Tanta+Egypt'
+    venueLabel: 'مسجد السلام بطنطا، مصر',
+    mapQuery: 'Al-Salam+Mosque+Tanta+Egypt',
+    mapUrl: 'https://maps.app.goo.gl/9amdULpP3r5WdUwy5'
   },
   copy: {
-    pageTitle: 'دعوة زفاف الدكتور كريم والدكتورة أسماء',
-    metaDescription: 'دعوة زفاف الدكتور كريم والدكتورة أسماء - نتشرف بدعوتكم لحضور حفل زفافنا يوم الجمعة ٢٨ أغسطس ٢٠٢٦ في قاعة رويال بالاس الجلاء طنطا',
-    ogTitle: 'دعوة زفاف الدكتور كريم والدكتورة أسماء',
-    ogDescription: 'بقلوب مليئة بالحب والشوق، نتشرف بدعوتكم لحضور حفل زفافنا',
-    envelopeTitle: 'دعوة زفاف',
+    pageTitle: 'دعوة كتب كتاب الدكتور كريم والدكتورة أسماء',
+    metaDescription: 'دعوة كتب كتاب الدكتور كريم والدكتورة أسماء - نتشرف بدعوتكم لحضور حفل كتب الكتاب يوم الخميس ٢٣ أكتوبر ٢٠٢٦ الساعة ٥:٠٠ مساءً في مسجد السلام بطنطا',
+    ogTitle: 'دعوة كتب كتاب الدكتور كريم والدكتورة أسماء',
+    ogDescription: 'نتشرف بدعوتكم لحضور حفل كتب الكتاب',
+    envelopeTitle: 'دعوة كتب كتاب',
     envelopeTap: 'اضغط لفتح الدعوة ♥',
-    envelopeAriaLabel: 'دعوة زفاف الدكتور كريم والدكتورة أسماء',
-    heroBadge: 'زفافنا السعيد',
-    heroSubtitle: 'بقلوب مليئة بالحب والشوق، نتشرف بدعوتكم لحضور حفل زفافنا ومشاركتنا فرحتنا الكبرى',
-    saveDateTitle: 'تاريخ فرحنا',
-    saveDateSubtitle: 'شاركونا توثيق ليلة العمر واجعلوا موعدنا مسجلاً بقلوبكم وتقويمكم',
+    envelopeAriaLabel: 'دعوة كتب كتاب الدكتور كريم والدكتورة أسماء',
+    heroBadge: 'كتب كتابنا',
+    heroSubtitle: 'نتشرف بدعوتكم لحضور حفل كتب الكتاب وتشريفكم لنا بوجودكم',
+    saveDateTitle: 'تاريخ حفلنا',
+    saveDateSubtitle: 'شاركونا هذه المناسبة المهمة واجعلوا موعدنا مسجلاً بقلوبكم وتقويمكم',
     detailsTitle: 'تفاصيل ليلتنا',
     themeLabel: 'الموضوع / الثيم',
     themeValue: 'ليلة العمر',
     venueLabel: 'المكان',
     dateTimeLabel: 'الموعد والزمان',
     timelineTitle: 'برنامج ليلتنا',
-    countdownTitle: 'العد التنازلي لجمعنا الأبدي',
-    countdownFooter: 'حتى يكتمل فرحنا بوجودكم',
+    countdownTitle: 'العد التنازلي لحفل كتب الكتاب',
+    countdownFooter: 'حتى نرى أحبابنا يشرفوننا بالحضور',
     mapsButton: 'افتح في الخرائط',
     audioLabelPlay: 'تشغيل الموسيقى',
     audioLabelPause: 'إيقاف الموسيقى',
     countdownEnded: '🎉 لقد حان موعد ليلتنا الكبرى وسعدنا بلقائكم!'
   },
   timeline: [
-    { time: '20:00', timeLabel: 'الساعة ٨:٠٠ مساءً (٢٠:٠٠)', activity: 'استقبال الضيوف الكرام' },
-    { time: '21:00', timeLabel: 'الساعة ٩:٠٠ مساءً (٢١:٠٠)', activity: 'بداية مراسم حفل الزفاف' }
+    { time: '17:00', timeLabel: 'الساعة ٥:٠٠ مساءً', activity: 'استقبال الضيوف الكرام' },
+    { time: '17:30', timeLabel: 'الساعة ٥:٣٠ مساءً', activity: 'بداية مراسم كتب الكتاب' }
   ],
   iCal: {
-    uid: 'wedding-dr-kareem-asmaa-2026-08-28',
-    dtStamp: '20260520T120000Z',
-    start: '20260828T160000Z',
-    end: '20260828T210000Z',
-    summary: 'حفل زفاف الدكتور كريم والدكتورة أسماء 💍',
-    description: 'بقلوب مليئة بالحب والشوق، نتشرف بدعوتكم لحضور حفل زفافنا. حضوركم يسعدنا ويتمم فرحتنا!'
+    uid: 'katb-dr-kareem-asmaa-2026-10-23',
+    dtStamp: '20260925T120000Z',
+    start: '20261023T150000Z',
+    end: '20261023T190000Z',
+    summary: 'حفل كتب الكتاب - الدكتور كريم والدكتورة أسماء 💍',
+    description: 'نتشرف بدعوتكم لحضور حفل كتب الكتاب. حضوركم يسعدنا ويتمم هذه المناسبة!'
   }
 };
