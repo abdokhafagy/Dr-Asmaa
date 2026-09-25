@@ -1,22 +1,22 @@
 window.WEDDING_CONFIG = {
   colors: {
-    '--color-primary': '#2C5E62',
+    '--color-primary': '#A10025',
     '--color-secondary': '#FAFAFA',
     '--color-surface': '#FFFFFF',
     '--color-accent': '#D4AF37',
-    '--color-text': '#222222',
+    '--color-text': '#A10025',
     '--color-primary-bg': '#FAFAFA',
     '--color-card-surface': '#FFFFFF',
-    '--color-accent-primary': '#2C5E62',
+    '--color-accent-primary': '#A10025',
     '--color-accent-hover': '#D4AF37',
     '--color-accent-active': '#B89224',
     '--color-accent-light': '#F8F1D9',
-    '--color-text-primary': '#222222',
-    '--color-text-secondary': '#4A4A4A',
+    '--color-text-primary': '#A10025',
+    '--color-text-secondary': '#C7003F',
     '--color-gold': '#D4AF37',
     '--color-gold-light': '#F6E7A8',
     '--color-white': '#FFFFFF',
-    '--color-shadow': 'rgba(34, 34, 34, 0.12)'
+    '--color-shadow': 'rgba(161, 0, 37, 0.12)'
   },
   couple: {
     groom: 'الدكتور كريم',
